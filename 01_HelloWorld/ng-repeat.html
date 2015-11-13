@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html ng-app>
+  <head>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+  </head>
+
+  <body>
+    <h3>Looping an array</h3>
+    <div ng-init="names=['Dave', 'Napur', 'Heedy', 'Shriva']">
+      <ul>
+        <li ng-repeat="name in names">{{name}}</li>
+      </ul>
+    </div>
+  </body>
+</html>
